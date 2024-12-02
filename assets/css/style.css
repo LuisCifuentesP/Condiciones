@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+background-color: rgb(183, 124, 36);
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(40, 36, 35);
+  font-size: 70px;
+}
+
+.skater{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.img1{
+margin-top: 30px;
+width: 180px;
+height: 180px;
+border-radius: 10px;
+}
+
+h2 {
+  color: #000000;
+}
+
+#gallery, #password {
+  border: 5px solid #fff;
+  border-radius: 10px;
+}
+
+#gallery {
+  width: 750px;
+  height: 440px;
+  background-color: #ba7911;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 12px;
+  padding: 20px 12px;
+  margin-left: 320px;
+  margin-top: 30px;
+}
+
+.stickers {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 20px;
+}
+
+.sticker1, .sticker2, .sticker3 {
+  width: 200px;
+  height: 220px;
+  background-color: #fff;
+  border-radius: 8px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sticker1 {
+  background-image: url('../img/1.png');
+}
+.sticker2 {
+  background-image: url('../img/2.png');
+}
+.sticker3 {
+  background-image: url('../img/3.png');
+}
+
+.quantity {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 45px;
+}
+
+input {
+  padding: 4px;
+}
+
+#password {
+  width: 400px;
+  height: 200px;
+  background-image: url('../img/gif.gif');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  margin-left: 500px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+#password select {
+  padding: 8px;
+  border-radius: 5px;
+  margin: 0 8px;
+}
+
+#btn-enter, #btn-verification {
+  background-color: #1d49db;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+
